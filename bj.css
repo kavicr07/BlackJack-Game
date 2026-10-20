@@ -1,0 +1,45 @@
+@font-face {
+    font-family: game;
+    src: url(files/blackjack.regular.ttf);
+}
+h1 {
+    font-family: game;
+    color: goldenrod;
+    font-size: 80px;
+    text-shadow: 0px 0px 2px black;
+}
+.main {
+    font-family: game;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    background-image: url(files/background.jpg);
+    background-size: cover;
+    text-shadow: 0px 0px 2px black;
+}
+#message-el {
+   font-style: italic;
+   color: lightgreen;
+}
+.st-btn , .new-btn {
+    font-family: inherit;
+    font-size: 20px;
+    width: 200px;
+    margin-top: 20px;
+    padding: 5px 0px;
+    cursor: pointer;
+    background-color: goldenrod;
+    border:none;
+    border-radius: 6px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.st-btn:active , .new-btn:active{
+  box-shadow: 0 0px #1e7e34; /* Removes the 3D edge */
+  transform: translateY(5px);
+  background-color: rgb(230, 224, 224); /* Moves the button down by the same height as the shadow */
+}
+#sum-el,#card-el {
+    color:goldenrod
+}
